@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" />
+  	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lobster|Montserrat|Oswald|Open+Sans' type='text/css'>
+	<link rel="stylesheet" href="CSS/layout.css" type="text/css">
+</head>
+	<body>
+		<input  type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+		<label for="drawer-toggle" id="drawer-toggle-label"></label>
+		<header>
+			<img id="logo" src="Images/footie-logo.png" />
+			<nav id="main-nav">
+				<ul>
+	  				<li><a class="active" href="#">Home</a></li>
+	  				<li><a href="#">Games</a></li>
+	  				<li><a href="#">Teams</a></li>
+	  				<li><a href="#">About</a></li>
+	  				<li><a href="#">Contact</a></li>			
+				</ul>
+			</nav>
+		</header>
+		<section id="drawer">
+			<nav id="mobile-nav">
+				<ul>
+	  				<li><a href="#">Home</a></li>
+	  				<li><a href="#">Games</a></li>
+	  				<li><a href="#">Teams</a></li>
+	  				<li><a href="#">About</a></li>
+	  				<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<form>
+				<input class="login" type=text value placeholder="Username"><br>
+				<input class="login" type=password value placeholder="Password"><br>
+				<input id="signIn" type="submit" value="Sign In" >
+				<hr>
+		    	<input id="reg" type="submit" value="Register">
+			</form>
+		</section>
+		<div id="page-content">
+		</div>
+	</body>
+</html>
